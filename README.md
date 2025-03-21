@@ -16,3 +16,6 @@ This project uses the following external assets:
 - **Swiper.js:** [Swiper](https://swiperjs.com/) - Used for slider implementation  
 
 All assets are used under their respective **licenses** and **attributions** where required.
+
+
+Deployment or working link:- https://internship-task-rszh.vercel.app/
