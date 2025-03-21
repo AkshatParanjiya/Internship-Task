@@ -509,7 +509,6 @@ const Hero = () => {
    </div> */}
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-20 px-4 md:px-10 my-10 md:my-40">
-          
             <motion.div
               whileHover={{ scale: 1.05, rotate: 2 }}
               transition={{ duration: 0.3 }}
@@ -522,11 +521,10 @@ const Hero = () => {
             </motion.div>
 
             <motion.div
-
-whileHover={{ scale: 1.05, rotate: -2 }}
-transition={{ duration: 0.3 }}
-
-             className="w-full md:w-[331px] h-[133px] bg-[#28B30E] p-4 rounded-2xl">
+              whileHover={{ scale: 1.05, rotate: -2 }}
+              transition={{ duration: 0.3 }}
+              className="w-full md:w-[331px] h-[133px] bg-[#28B30E] p-4 rounded-2xl"
+            >
               <h1 className="font-bold text-xl md:text-5xl text-[#222222]">
                 3X
               </h1>
@@ -535,11 +533,11 @@ transition={{ duration: 0.3 }}
               </h1>
             </motion.div>
 
-           
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.05, rotate: 2 }}
               transition={{ duration: 0.3 }}
-            className="w-full md:w-[331px] h-[133px] bg-[#F6F6F6] p-4 rounded-2xl">
+              className="w-full md:w-[331px] h-[133px] bg-[#F6F6F6] p-4 rounded-2xl"
+            >
               <h1 className="font-bold text-xl md:text-5xl text-[#28B30E]">
                 37%
               </h1>
@@ -549,11 +547,11 @@ transition={{ duration: 0.3 }}
               </h1>
             </motion.div>
 
-            
             <motion.div
               whileHover={{ scale: 1.05, rotate: -2 }}
               transition={{ duration: 0.3 }}
-            className="w-full md:w-[331px] h-[133px] bg-[#3A3A3A] p-4 rounded-2xl">
+              className="w-full md:w-[331px] h-[133px] bg-[#3A3A3A] p-4 rounded-2xl"
+            >
               <h1 className="font-bold text-xl md:text-5xl text-white">18%</h1>
               <h1 className="text-sm md:text-[16px] text-white mt-2">
                 of companies are cutting emissions fast enough to reach net zero
@@ -562,7 +560,7 @@ transition={{ duration: 0.3 }}
             </motion.div>
           </div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
