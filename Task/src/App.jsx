@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Features from "./components/Features";
-import Services from "./components/sERVICES.JSX";
+import Services from "./components/Services";
 
 function App() {
   return (
